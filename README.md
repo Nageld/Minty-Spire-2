@@ -10,9 +10,6 @@ Successor of the StS1 mod with the same name. This is a compilation of small qua
 - Display a second amount on powers that track multiple values (kiooeht)
 - Increase animation speed of shuffling discard into draw pile (pandemonium)
 
-## Known issues
-- Restart room button should be hidden under certain circumstances
-
 ## Installation
 Make a folder called `mods` in the same directory as your sts2.exe `Steam\steamapps\common\Slay the Spire 2` and unzip the contents of the release (once available) into that folder or a subdirectory within that folder.
 
