@@ -106,13 +106,6 @@
         </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-      <Content Include="src\ModInitializer.cs.uid" />
-      <Content Include="src\RestHPRender.cs.uid" />
-      <Content Include="src\SummedIncomingDamageRender.cs.uid" />
-      <Content Include="src\SumMultiDamage.cs.uid" />
-    </ItemGroup>
-
     <Target Name="CopyToModsFolderOnBuild" AfterTargets="PostBuildEvent">
         <Message Text="Copying .dll and manifest to mods folder." Importance="high"/>
         <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModsPath)$(MSBuildProjectName)/"/>
